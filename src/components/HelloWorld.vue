@@ -3,6 +3,9 @@
   <p>{{ mainStore.foo }}</p>
   <p>{{ mainStore.arr }}</p>
   <hr />
+  <span>getters的值: {{ mainStore.count10 }}</span>
+  <p></p>
+  <hr />
   <p>{{ count }}</p>
   <p>{{ foo }}</p>
   <hr />
@@ -44,6 +47,6 @@ const handleChaneClick = () => {
   //   state.arr.push(4);
   // });
   //方式四：逻辑比较多的时候可以封装到actions做处理
-  mainStore.changeState(10);
+  // mainStore.changeState(10);
 };
 </script>
